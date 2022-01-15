@@ -1,6 +1,5 @@
 <?php
-$industries = array('financial', 'it', 'media', 'automotive', 'machinery', 'energy', 'retail', 'building', 'other');
-$value = '';
+$values = array();
 if (isset($_POST['industries'])) {
 	$values = $_POST['industries'];
 }
