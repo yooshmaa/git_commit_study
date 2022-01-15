@@ -1,5 +1,5 @@
 <?php
-$industries = array('financial', 'it', 'media', 'automotive', 'machinery', 'energy', 'retail', 'other');
+$industries = array('financial', 'it', 'media', 'automotive', 'machinery', 'energy', 'retail', 'building', 'other');
 $value = '';
 if (isset($_POST['industry'])) {
 	$value = $_POST['industry'];
@@ -23,6 +23,7 @@ if (isset($_POST['industry'])) {
 <input type="radio" name="industry" value="MACHINERY">MACHINERY
 <input type="radio" name="industry" value="ENERGY">ENERGY
 <input type="radio" name="industry" value="RETAIL">RETAIL
+<input type="radio" name="industry" value="BUILDING">BUILDING
 <input type="radio" name="industry" value="OTHER">OTHER
 <br>
 <input type="submit" value="submit">
